@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "intrd has spoken"
 disableKinds = ["section"]
 enableRobotsTXT = true
+removePathAccents = true
 
 [pagination]
   pagerSize = 1000
@@ -18,6 +19,12 @@ enableRobotsTXT = true
 
 [permalinks.page]
   posts = "/:slug/"
+
+[permalinks.term]
+  tags = "/tag/:slug/"
+
+[permalinks.taxonomy]
+  tags = "/tag/"
 
 [params]
   github = "https://github.com/intrd"
