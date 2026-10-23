@@ -1,0 +1,9 @@
+{{ define "main" }}
+<h1>{{ if eq .Kind "term" }}#{{ .Title }}{{ else }}{{ .Title }}{{ end }}</h1>
+<ul class="posts">
+  {{ range .Pages }}
+  <li><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
+    <a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+  {{ end }}
+</ul>
+{{ end }}

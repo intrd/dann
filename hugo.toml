@@ -1,0 +1,24 @@
+baseURL = "https://dann.com.br/"
+languageCode = "en-us"
+title = "intrd has spoken"
+disableKinds = ["section"]
+enableRobotsTXT = true
+
+[pagination]
+  pagerSize = 1000
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[markup.highlight]
+  noClasses = false
+
+[taxonomies]
+  tag = "tags"
+
+[permalinks.page]
+  posts = "/:slug/"
+
+[params]
+  github = "https://github.com/intrd"
+  keybase = "https://keybase.io/intrd"

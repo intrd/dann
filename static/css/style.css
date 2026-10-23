@@ -1,0 +1,14 @@
+:root{--bg:#fff;--fg:#222;--mut:#666;--link:#0b5fff;--code:#f4f4f4}
+@media (prefers-color-scheme:dark){:root{--bg:#111;--fg:#ddd;--mut:#999;--link:#6ea1ff;--code:#1c1c1c}}
+body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.6 system-ui,sans-serif}
+a{color:var(--link)}
+header.site{background:#333;padding:8px 16px;display:flex;flex-wrap:wrap;gap:16px;align-items:center}
+header.site a{color:#fff;text-decoration:none}
+header.site .logo{font-weight:700;margin-right:auto}
+main{max-width:50rem;margin:0 auto;padding:16px}
+img,iframe{max-width:100%;height:auto}
+pre{background:var(--code);padding:12px;overflow:auto;border-radius:4px}
+code{background:var(--code);padding:0 4px;border-radius:3px}pre code{padding:0;background:none}
+.posts{list-style:none;padding:0}.posts li{padding:4px 0}
+.posts time,.meta{color:var(--mut);font-size:.9em;margin-right:8px}
+.tag{font-size:.85em;margin-left:6px}
