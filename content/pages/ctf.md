@@ -15,7 +15,7 @@ teams:
     events: ["c1ctf2018", "shx16"]
   - name: "h3x_pr0ph3ts"
     ctftime: "https://ctftime.org/team/32672"
-    logo: "/content/images/2018/09/photo_2018-09-22_12-44-15.jpg"
+    logo: "/content/images/2018/09/h3x-logo.png"
     members:
       - name: "Morphus Red Team"
     events: ["gclprequals2k17"]

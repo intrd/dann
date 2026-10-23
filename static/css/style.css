@@ -1,5 +1,5 @@
 :root{--bg:#fff;--fg:#222;--mut:#666;--link:#0b5fff;--code:#f4f4f4;--accent:#1a7f37}
-@media (prefers-color-scheme:dark){:root{--bg:#000;--fg:#ddd;--mut:#999;--link:#6ea1ff;--code:#161616;--accent:#7CFC9A}}
+@media (prefers-color-scheme:dark){:root{--card:#000;--bg:#000;--fg:#ddd;--mut:#999;--link:#6ea1ff;--code:#161616;--accent:#7CFC9A}}
 body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.6 system-ui,sans-serif}
 a{color:var(--link)}
 .banner{position:relative;display:flex;align-items:flex-end;box-sizing:border-box;width:calc(100% - 32px);max-width:60rem;aspect-ratio:3/1;margin:16px auto 0;padding:16px;border-radius:6px;overflow:hidden;background:#222 center/cover no-repeat}
@@ -53,11 +53,11 @@ a{color:var(--link)}
 main .tagbrowser{padding:12px 14px;background:#0d0d0d;border:1px solid #262626;border-radius:6px}
 .term-n{font-size:.5em;color:var(--mut);font-weight:400;vertical-align:middle}
 .teams-page>p{color:var(--mut)}
-.team{display:grid;grid-template-columns:132px 1fr;gap:20px;align-items:start;margin:24px 0;padding:18px;background:var(--code);border:1px solid color-mix(in srgb,var(--fg) 12%,transparent);border-radius:8px}
-.team-logo{display:block;width:132px;aspect-ratio:1;background:#000;border-radius:6px;overflow:hidden;border:1px solid #222}
-.team-logo img{display:block;width:100%;height:100%;object-fit:contain}
-.team-body{min-width:0}
-.team-head{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 14px}
+.team{display:flex;flex-direction:column;align-items:center;gap:18px;margin:24px 0;padding:22px;text-align:center;background:var(--card,var(--code));border:1px solid color-mix(in srgb,var(--fg) 12%,transparent);border-radius:8px}
+.team-logo{display:flex;align-items:center;justify-content:center;width:100%}
+.team-logo img{display:block;max-width:100%;max-height:clamp(150px,26vw,230px);width:auto;height:auto}
+.team-body{min-width:0;width:100%}
+.team-head{display:flex;flex-wrap:wrap;justify-content:center;align-items:baseline;gap:6px 14px}
 .team-head h2{margin:0;font:700 1.35rem ui-monospace,SFMono-Regular,Menlo,monospace}
 .team-ctftime{font:.85rem ui-monospace,SFMono-Regular,Menlo,monospace;color:var(--accent);text-decoration:none}
 .team-ctftime:hover{text-decoration:underline}
@@ -67,7 +67,8 @@ main .tagbrowser{padding:12px 14px;background:#0d0d0d;border:1px solid #262626;b
 .team-note{color:var(--mut)}
 .team-events .chip{background:var(--bg);color:var(--fg);border-color:color-mix(in srgb,var(--fg) 20%,transparent)}
 .team-events .chip:hover{border-color:var(--accent);color:var(--accent)}
-@media (max-width:600px){.team{grid-template-columns:72px 1fr;gap:14px;padding:14px}.team-logo{width:72px}.team-head h2{font-size:1.15rem}}
+.team-events{justify-content:center}
+@media (max-width:600px){.team{gap:14px;padding:18px}.team-head h2{font-size:1.15rem}}
 .visually-hidden{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 @media (max-width:600px){.topnav{padding:8px}.topnav-links{gap:0}.topnav-links a{padding:4px 6px;font-size:.85rem}.search{max-width:none;margin-left:0;flex-basis:100%}}
 main{max-width:50rem;margin:0 auto;padding:16px}
