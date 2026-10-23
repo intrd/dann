@@ -1,0 +1,41 @@
+{{ define "main" }}
+<article class="teams-page">
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+  {{- range .Params.teams }}
+  {{- $terms := slice }}
+  {{- $years := slice }}
+  {{- range .events }}
+    {{- with site.GetPage (printf "/tags/%s" .) }}
+      {{- $terms = $terms | append . }}
+      {{- range .Pages }}{{ $years = $years | append (.Date.Format "2006") }}{{ end }}
+    {{- end }}
+  {{- end }}
+  {{- $years = sort (uniq $years) }}
+  <section class="team">
+    <a class="team-logo" href="{{ .ctftime }}" aria-label="{{ .name }} on CTFtime">
+      <img src="{{ strings.TrimPrefix "/" .logo | relURL }}" alt="{{ .name }} logo" loading="lazy">
+    </a>
+    <div class="team-body">
+      <header class="team-head">
+        <h2>{{ .name }}</h2>
+        <a class="team-ctftime" href="{{ .ctftime }}">ctftime ↗</a>
+      </header>
+      <p class="team-meta">
+        {{- with $years }}{{ index . 0 }}{{ if gt (len .) 1 }}–{{ index . (sub (len .) 1) }}{{ end }} · {{ end -}}
+        {{ len $terms }} event{{ if ne (len $terms) 1 }}s{{ end }}
+      </p>
+      <p class="team-members"><span class="team-label">members</span>
+        {{- range $i, $m := .members }}{{ if $i }}, {{ end }}{{ with $m.url }}<a href="{{ . }}">{{ $m.name }}</a>{{ else }}{{ $m.name }}{{ end }}{{ end }}
+        {{- with .note }} <span class="team-note">({{ . }})</span>{{ end }}
+      </p>
+      <ul class="tb-list team-events">
+        {{- range $terms }}
+        <li><a class="chip chip-event" href="{{ .RelPermalink }}">{{ .LinkTitle }}<span class="chip-n">{{ len .Pages }}</span></a></li>
+        {{- end }}
+      </ul>
+    </div>
+  </section>
+  {{- end }}
+</article>
+{{ end }}

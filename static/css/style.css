@@ -52,6 +52,22 @@ a{color:var(--link)}
 .tb-all:hover{text-decoration:underline}
 main .tagbrowser{padding:12px 14px;background:#0d0d0d;border:1px solid #262626;border-radius:6px}
 .term-n{font-size:.5em;color:var(--mut);font-weight:400;vertical-align:middle}
+.teams-page>p{color:var(--mut)}
+.team{display:grid;grid-template-columns:132px 1fr;gap:20px;align-items:start;margin:24px 0;padding:18px;background:var(--code);border:1px solid color-mix(in srgb,var(--fg) 12%,transparent);border-radius:8px}
+.team-logo{display:block;width:132px;aspect-ratio:1;background:#000;border-radius:6px;overflow:hidden;border:1px solid #222}
+.team-logo img{display:block;width:100%;height:100%;object-fit:contain}
+.team-body{min-width:0}
+.team-head{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 14px}
+.team-head h2{margin:0;font:700 1.35rem ui-monospace,SFMono-Regular,Menlo,monospace}
+.team-ctftime{font:.85rem ui-monospace,SFMono-Regular,Menlo,monospace;color:var(--accent);text-decoration:none}
+.team-ctftime:hover{text-decoration:underline}
+.team-meta{margin:2px 0 10px;color:var(--mut);font:.85rem ui-monospace,SFMono-Regular,Menlo,monospace}
+.team-members{margin:0 0 12px;font-size:.95rem}
+.team-label{display:inline-block;margin-right:8px;color:var(--mut);font:600 .7rem ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.08em;text-transform:uppercase}
+.team-note{color:var(--mut)}
+.team-events .chip{background:var(--bg);color:var(--fg);border-color:color-mix(in srgb,var(--fg) 20%,transparent)}
+.team-events .chip:hover{border-color:var(--accent);color:var(--accent)}
+@media (max-width:600px){.team{grid-template-columns:72px 1fr;gap:14px;padding:14px}.team-logo{width:72px}.team-head h2{font-size:1.15rem}}
 .visually-hidden{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 @media (max-width:600px){.topnav{padding:8px}.topnav-links{gap:0}.topnav-links a{padding:4px 6px;font-size:.85rem}.search{max-width:none;margin-left:0;flex-basis:100%}}
 main{max-width:50rem;margin:0 auto;padding:16px}
