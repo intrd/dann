@@ -6,7 +6,9 @@
   <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} · {{ site.Title }}{{ end }}</title>
   {{ with .Description }}<meta name="description" content="{{ . }}">{{ end }}
   <link rel="alternate" type="application/rss+xml" href="{{ "index.xml" | absURL }}" title="{{ site.Title }}">
-  <link rel="icon" href="{{ "favicon.ico" | relURL }}" sizes="any">
+  <link rel="icon" href="{{ "favicon.ico" | relURL }}?v=2" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ "favicon-32.png" | relURL }}?v=2">
+  <link rel="apple-touch-icon" href="{{ "apple-touch-icon.png" | relURL }}?v=2">
   <link rel="canonical" href="{{ .Permalink }}">
   {{- $desc := .Description | default .Summary | default site.Title | plainify | htmlUnescape | truncate 200 }}
   <meta property="og:site_name" content="{{ site.Title }}">
