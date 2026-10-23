@@ -22,9 +22,8 @@ jobs:
       - uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: "latest"
-      - id: pages
-        uses: actions/configure-pages@v5
-      - run: hugo --baseURL "${{ steps.pages.outputs.base_url }}/"
+      - uses: actions/configure-pages@v5
+      - run: hugo
       - uses: actions/upload-pages-artifact@v3
         with:
           path: public
