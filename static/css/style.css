@@ -58,7 +58,11 @@ img,iframe{max-width:100%;height:auto}
 .quote blockquote{margin:0;font:1.1rem/1.6 ui-monospace,SFMono-Regular,Menlo,monospace}
 .quote blockquote p{margin:0 0 8px}
 .quote figcaption{margin-top:8px;text-align:right;color:var(--accent);font:.95rem ui-monospace,SFMono-Regular,Menlo,monospace}
-pre{background:var(--code);padding:12px;overflow:auto;border-radius:4px}
+pre{background:var(--code);padding:12px;overflow-x:auto;max-width:100%;box-sizing:border-box;border-radius:4px}
+main,article{min-width:0;overflow-wrap:break-word}
+article a,article :not(pre)>code{overflow-wrap:anywhere;word-break:break-word}
+.highlight,article table{display:block;max-width:100%;overflow-x:auto}
+.highlight pre{margin:0}
 code{background:var(--code);padding:0 4px;border-radius:3px}pre code{padding:0;background:none}
 .posts{list-style:none;padding:0}.posts li{padding:4px 0}
 .posts time,.meta{color:var(--mut);font-size:.9em;margin-right:8px}

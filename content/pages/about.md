@@ -4,14 +4,16 @@ aliases: ["/author/intrd/"]
 slug: "about"
 url: "/about/"
 ---
-I’m Danilo, a.k.a. `intrd`, a computer science enthusiast based in Rio de Janeiro, Brazil. I hack, I code, and I believe everything can be simplified, encoded, and understood as information.
+**Danilo** (a.k.a. `intrd`) is an information security professional based in São Paulo, Brazil, working in the field since ’98.
 
-I’ve been working in information security since ’98, with a solid background in pentesting corporate environments. I recently left my Red Team role to focus on web bug hunting and personal projects.
+His background is in offensive security, with years of penetration testing across corporate environments and, most recently, Red Team operations. He now focuses on web application bug hunting and independent research projects.
+
+This blog collects CTF write-ups, research notes and tools built along the way.
 
 <figure class="quote">
   <blockquote>
-    <p>I believe in open systems, knowledge sharing, and P2P.</p>
-    <p>The future will be decentralized. Most people just don’t know it yet.</p>
+    <p>Open systems, shared knowledge, decentralized networks.</p>
+    <p>The future is already being built that way — most people just haven’t noticed yet.</p>
   </blockquote>
   <figcaption>— intrd</figcaption>
 </figure>
