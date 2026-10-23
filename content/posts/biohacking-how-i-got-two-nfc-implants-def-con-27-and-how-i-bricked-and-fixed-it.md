@@ -1,5 +1,5 @@
 ---
-title: "BIOHACKING : How I got two NFC implants @ DEF CON 27, why I bricked and how fixed it?"
+title: "BIOHACKING : How I got two NFC implants @ DEF CON 27, bricked and fixed it"
 date: "2019-08-16T00:42:55.000Z"
 lastmod: "2019-08-18T23:04:50.000Z"
 tags: ["hardware", "defcon"]

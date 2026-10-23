@@ -1,5 +1,5 @@
 ---
-title: "Powerful USB stick : Grub2 booting Mint, Tails and Hirens + (storages NTFS and ext4 LUKS encrypted)"
+title: "Powerful USB stick : Grub2 booting Mint, Tails and Hirens + NTFS and LUKS storage"
 date: "2015-09-17T13:18:00.000Z"
 lastmod: "2016-03-23T08:24:00.000Z"
 tags: ["linux"]
