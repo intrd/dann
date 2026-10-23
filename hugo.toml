@@ -22,3 +22,16 @@ enableRobotsTXT = true
 [params]
   github = "https://github.com/intrd"
   keybase = "https://keybase.io/intrd"
+
+[mediaTypes."text/x-rss"]
+  suffixes = ["html"]
+
+[outputFormats.RSSCOMPAT]
+  mediaType = "text/x-rss"
+  baseName = "index"
+  path = "rss"
+  isPlainText = true
+  notAlternative = true
+
+[outputs]
+  home = ["HTML", "RSS", "RSSCOMPAT"]

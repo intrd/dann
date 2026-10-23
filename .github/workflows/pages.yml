@@ -24,7 +24,7 @@ jobs:
           hugo-version: "latest"
       - id: pages
         uses: actions/configure-pages@v5
-      - run: hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
+      - run: hugo --baseURL "${{ steps.pages.outputs.base_url }}/"
       - uses: actions/upload-pages-artifact@v3
         with:
           path: public
