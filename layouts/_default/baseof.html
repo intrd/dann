@@ -32,7 +32,12 @@
 </head>
 <body>
   <div class="banner{{ if .IsHome }} home{{ end }}" style="background-image:url('{{ site.Params.banner | relURL }}')">
-    <a class="banner-title" href="{{ site.Home.RelPermalink }}" title="home">{{ site.Title }}</a>
+    <div class="banner-id">
+      {{- if .IsHome }}
+      <img class="banner-avatar" src="{{ site.Params.avatar | relURL }}" alt="intrd" width="56" height="56">
+      {{- end }}
+      <a class="banner-title" href="{{ site.Home.RelPermalink }}" title="home">{{ site.Title }}</a>
+    </div>
   </div>
   {{ partial "nav.html" . }}
   <main>{{ block "main" . }}{{ end }}</main>

@@ -1,6 +1,7 @@
 ---
 title: "About"
 aliases: ["/author/intrd/"]
+avatar: true
 slug: "about"
 url: "/about/"
 ---

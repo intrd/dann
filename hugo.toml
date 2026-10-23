@@ -31,6 +31,7 @@ removePathAccents = true
   keybase = "https://keybase.io/intrd"
   banner = "content/images/2021/08/1500x500.jpeg"
   footer = "content/images/cpaf-footer.png"
+  avatar = "content/images/avatar.jpg"
   tagTopics = ["ctf", "web security", "cryptography", "pwn", "reverse engineering", "forensics", "programming", "networking", "pentest", "bitcoin", "projects", "hardware", "linux", "malware", "pt_BR"]
 
   [[params.nav]]
