@@ -34,9 +34,6 @@ removePathAccents = true
   tagTopics = ["ctf", "web security", "cryptography", "pwn", "reverse engineering", "forensics", "programming", "networking", "pentest", "bitcoin", "projects", "hardware", "linux", "malware", "pt_BR"]
 
   [[params.nav]]
-    name = "/home"
-    url = "/"
-  [[params.nav]]
     name = "/teams"
     url = "ctf/"
   [[params.nav]]
