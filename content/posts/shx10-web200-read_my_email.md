@@ -2,7 +2,7 @@
 title: "SHX10 : web200-read_my_email"
 date: "2017-05-24T04:31:19.000Z"
 lastmod: "2017-06-05T15:22:36.000Z"
-tags: ["shx10", "web security", "django", "code leak", "debug", "stream cipher", "ctf"]
+tags: ["ctf", "web security", "shx10"]
 slug: "shx10-web200-read_my_email"
 url: "/shx10-web200-read_my_email/"
 ---

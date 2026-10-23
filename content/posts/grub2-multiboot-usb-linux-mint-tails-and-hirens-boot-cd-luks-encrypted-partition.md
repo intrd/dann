@@ -2,7 +2,7 @@
 title: "Powerful USB stick : Grub2 booting Mint, Tails and Hirens + (storages NTFS and ext4 LUKS encrypted)"
 date: "2015-09-17T13:18:00.000Z"
 lastmod: "2016-03-23T08:24:00.000Z"
-tags: ["en_US", "Grub", "Multiboot USB Stick", "Booting Linux and Hirens on USB stick", "Grub on multi partitioned disk", "Creating LUKS encrypted partition at USB stick"]
+tags: ["linux"]
 slug: "grub2-multiboot-usb-linux-mint-tails-and-hirens-boot-cd-luks-encrypted-partition"
 url: "/grub2-multiboot-usb-linux-mint-tails-and-hirens-boot-cd-luks-encrypted-partition/"
 ---

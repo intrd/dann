@@ -1,9 +1,14 @@
 {{ define "main" }}
-<h1>{{ if eq .Kind "term" }}#{{ .Title }}{{ else }}{{ .Title }}{{ end }}</h1>
+{{- if eq .Kind "taxonomy" }}
+<h1>tags</h1>
+{{ partial "tagbrowser.html" . }}
+{{- else }}
+<h1>{{ if eq .Kind "term" }}#{{ .LinkTitle }} <span class="term-n">{{ len .Pages }} posts</span>{{ else }}{{ .Title }}{{ end }}</h1>
 <ul class="posts">
   {{ range .Pages }}
   <li><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
     <a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
   {{ end }}
 </ul>
+{{- end }}
 {{ end }}

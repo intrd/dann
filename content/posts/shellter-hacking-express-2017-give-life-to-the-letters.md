@@ -2,7 +2,7 @@
 title: "Carnaval hacking 2017 : prog200-give_life_to_the_letters"
 date: "2017-03-01T21:23:13.000Z"
 lastmod: "2017-06-05T15:27:24.000Z"
-tags: ["programming", "python", "shcarnaval2k17", "game of life", "ctf"]
+tags: ["ctf", "programming", "shcarnaval2k17"]
 slug: "shellter-hacking-express-2017-give-life-to-the-letters"
 url: "/shellter-hacking-express-2017-give-life-to-the-letters/"
 ---

@@ -2,7 +2,7 @@
 title: "3DSCTF 2016 : crypto100-hotsun"
 date: "2017-01-08T16:02:55.000Z"
 lastmod: "2017-06-05T15:30:29.000Z"
-tags: ["guessing", "cryptography", "3dsctf-2k16", "python", "ctf"]
+tags: ["ctf", "cryptography", "3dsctf-2k16"]
 slug: "3dsctf-2016-crypto100-hotsun"
 url: "/3dsctf-2016-crypto100-hotsun/"
 ---

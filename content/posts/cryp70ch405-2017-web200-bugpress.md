@@ -2,7 +2,7 @@
 title: "CryptoRave 2017: web200-bugpress"
 date: "2017-05-10T01:02:58.000Z"
 lastmod: "2017-06-05T15:25:12.000Z"
-tags: ["web security", "cryp70ch4052k17", "cryptorave 2017", "phpmailer", "wordpress", "0day", "ctf"]
+tags: ["ctf", "web security", "cryp70ch4052k17"]
 slug: "cryp70ch405-2017-web200-bugpress"
 url: "/cryp70ch405-2017-web200-bugpress/"
 ---

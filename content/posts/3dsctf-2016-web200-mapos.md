@@ -2,7 +2,7 @@
 title: "3DSCTF 2016 : web200-mapos"
 date: "2017-01-08T17:19:00.000Z"
 lastmod: "2017-06-05T15:29:49.000Z"
-tags: ["pwn", "3dsctf-2k16", "bruteforce", "patator", "web security", "ctf"]
+tags: ["ctf", "web security", "3dsctf-2k16"]
 slug: "3dsctf-2016-web200-mapos"
 url: "/3dsctf-2016-web200-mapos/"
 ---

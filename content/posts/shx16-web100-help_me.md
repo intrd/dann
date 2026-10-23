@@ -2,7 +2,7 @@
 title: "SHX16 : web100-help_me"
 date: "2017-11-21T15:53:31.000Z"
 lastmod: "2017-11-21T22:19:47.000Z"
-tags: ["web security", "shx16", "SQLite", "sql injection"]
+tags: ["ctf", "web security", "shx16"]
 slug: "shx16-web100-help_me"
 url: "/shx16-web100-help_me/"
 ---

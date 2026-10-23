@@ -2,7 +2,7 @@
 title: "Nullcon HackIM 2017 - prog300-jio-geo_challenge"
 date: "2017-03-04T21:20:59.000Z"
 lastmod: "2017-06-05T15:27:14.000Z"
-tags: ["programming", "python", "hackim2017", "ip spoofing", "ctf"]
+tags: ["ctf", "programming", "networking", "hackim2017"]
 slug: "nullcon-hackim-2017-prog300-jio-geo_challenge"
 url: "/nullcon-hackim-2017-prog300-jio-geo_challenge/"
 ---

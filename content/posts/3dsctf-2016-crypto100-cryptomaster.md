@@ -2,7 +2,7 @@
 title: "3DSCTF 2016 : crypto100-cryptomaster"
 date: "2017-01-08T17:12:50.000Z"
 lastmod: "2017-06-05T15:30:13.000Z"
-tags: ["cryptography", "3dsctf-2k16", "guessing", "python", "ctf"]
+tags: ["ctf", "cryptography", "3dsctf-2k16"]
 slug: "3dsctf-2016-crypto100-cryptomaster"
 url: "/3dsctf-2016-crypto100-cryptomaster/"
 ---

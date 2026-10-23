@@ -2,7 +2,7 @@
 title: "TAMUctf 2017 : pwn200-pwn4"
 date: "2017-04-24T14:38:32.000Z"
 lastmod: "2017-06-05T15:26:11.000Z"
-tags: ["tamuctf2k17", "reverse engineering", "pwn", "rop", "buffer overflow", "ctf"]
+tags: ["ctf", "pwn", "reverse engineering", "tamuctf2k17"]
 slug: "tamuctf-2017-pwn200-pwn4"
 url: "/tamuctf-2017-pwn200-pwn4/"
 ---

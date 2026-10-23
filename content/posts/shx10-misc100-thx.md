@@ -2,7 +2,7 @@
 title: "SHX10 : misc100-thx"
 date: "2017-05-23T01:24:00.000Z"
 lastmod: "2017-06-05T15:25:00.000Z"
-tags: ["python", "shx10", "pil", "programming", "image manipulation", "ctf"]
+tags: ["ctf", "programming", "shx10"]
 slug: "shx10-misc100-thx"
 url: "/shx10-misc100-thx/"
 ---

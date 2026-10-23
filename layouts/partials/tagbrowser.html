@@ -1,0 +1,32 @@
+{{- $topics := slice -}}
+{{- $events := slice -}}
+{{- range site.Taxonomies.tags -}}
+  {{- $last := index (.Pages.ByDate.Reverse) 0 -}}
+  {{- $e := dict "p" .Page "n" .Count "d" $last.Date -}}
+  {{- if eq .Page.Params.group "event" -}}
+    {{- $events = $events | append $e -}}
+  {{- else -}}
+    {{- $topics = $topics | append $e -}}
+  {{- end -}}
+{{- end -}}
+{{- $order := site.Params.tagTopics -}}
+<div class="tagbrowser">
+  <section>
+    <h2 class="tb-head">topics</h2>
+    <ul class="tb-list">
+      {{- range $name := $order }}
+      {{- range where $topics "p.Title" $name }}
+      <li><a class="chip" href="{{ .p.RelPermalink }}">{{ .p.LinkTitle }}<span class="chip-n">{{ .n }}</span></a></li>
+      {{- end }}
+      {{- end }}
+    </ul>
+  </section>
+  <section>
+    <h2 class="tb-head">events</h2>
+    <ul class="tb-list">
+      {{- range sort $events "d" "desc" }}
+      <li><a class="chip chip-event" href="{{ .p.RelPermalink }}">{{ .p.LinkTitle }}<span class="chip-n">{{ .n }}</span></a></li>
+      {{- end }}
+    </ul>
+  </section>
+</div>

@@ -2,7 +2,7 @@
 title: "SHX8 : pwn100-basic_understanding"
 date: "2017-04-25T13:41:17.000Z"
 lastmod: "2017-06-05T15:25:52.000Z"
-tags: ["reverse engineering", "pwn", "shx8", "format string", "memory leak", "ctf"]
+tags: ["ctf", "pwn", "shx8"]
 slug: "shx8-pwn50-basic_understanding"
 url: "/shx8-pwn50-basic_understanding/"
 ---

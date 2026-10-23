@@ -2,7 +2,7 @@
 title: "Bitcoin : HAL 10K - Bitcoin PHP trading & helper bot"
 date: "2013-12-30T12:14:12.000Z"
 lastmod: "2017-01-10T03:47:24.000Z"
-tags: ["bitcoin", "php", "trading bot", "en_US", "GitHub", "deprecated"]
+tags: ["bitcoin", "projects"]
 slug: "hal-10k-php-trading-helper-bot"
 url: "/hal-10k-php-trading-helper-bot/"
 ---

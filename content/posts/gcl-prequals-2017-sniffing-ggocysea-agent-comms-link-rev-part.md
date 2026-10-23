@@ -2,7 +2,7 @@
 title: "GCL-Prequals 2017 : Sniffing GGoCySEA Agent Comms Link (rev part)"
 date: "2017-09-20T22:26:11.000Z"
 lastmod: "2017-09-22T00:31:29.000Z"
-tags: ["bruteforce", "gclprequals2k17", "reverse engineering", "cryptography", "forensics", "cryptcat"]
+tags: ["ctf", "reverse engineering", "cryptography", "forensics", "gclprequals2k17"]
 slug: "gcl-prequals-2017-sniffing-ggocysea-agent-comms-link-rev-part"
 url: "/gcl-prequals-2017-sniffing-ggocysea-agent-comms-link-rev-part/"
 ---

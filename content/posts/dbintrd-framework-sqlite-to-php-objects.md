@@ -2,7 +2,7 @@
 title: "SQLite : DBIntrd - Simple PHP framework for SQLite3"
 date: "2015-08-08T00:03:35.000Z"
 lastmod: "2017-05-19T12:48:18.000Z"
-tags: ["php", "en_US", "SQLite", "GitHub"]
+tags: ["projects", "programming"]
 slug: "dbintrd-framework-sqlite-to-php-objects"
 url: "/dbintrd-framework-sqlite-to-php-objects/"
 ---

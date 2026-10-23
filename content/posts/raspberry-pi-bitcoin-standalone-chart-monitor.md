@@ -2,7 +2,7 @@
 title: "Bitcoin : Raspberry Pi - Bitcoin standalone chart monitor"
 date: "2014-06-18T17:36:07.000Z"
 lastmod: "2015-10-22T00:18:58.000Z"
-tags: ["bitcoin", "raspberry pi", "trading", "price monitor", "en_US"]
+tags: ["bitcoin", "projects", "hardware"]
 slug: "raspberry-pi-bitcoin-standalone-chart-monitor"
 url: "/raspberry-pi-bitcoin-standalone-chart-monitor/"
 ---

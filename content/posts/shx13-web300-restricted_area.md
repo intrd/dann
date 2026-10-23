@@ -2,7 +2,7 @@
 title: "SHX13 : web300-restricted_area"
 date: "2017-07-04T14:53:44.000Z"
 lastmod: "2017-08-13T01:57:04.000Z"
-tags: ["web security", "php", "shx13", "PDOException", "database control", "login bypass"]
+tags: ["ctf", "web security", "shx13"]
 slug: "shx13-web300-restricted_area"
 url: "/shx13-web300-restricted_area/"
 ---

@@ -2,7 +2,7 @@
 title: "SHX7 : for300-go_deeper"
 date: "2017-05-08T03:10:11.000Z"
 lastmod: "2017-06-05T15:25:33.000Z"
-tags: ["shx7", "forensics", "volatility", "keepass2", "memory dump", "ctf"]
+tags: ["ctf", "forensics", "shx7"]
 slug: "shx7-for300-go_deeper"
 url: "/shx7-for300-go_deeper/"
 ---

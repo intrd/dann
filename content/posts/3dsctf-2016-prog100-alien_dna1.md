@@ -2,7 +2,7 @@
 title: "3DSCTF 2016 : prog100-alien_dna1"
 date: "2017-01-13T11:18:41.000Z"
 lastmod: "2017-06-05T15:29:23.000Z"
-tags: ["3dsctf-2k16", "guessing", "programming", "python", "ctf"]
+tags: ["ctf", "programming", "3dsctf-2k16"]
 slug: "3dsctf-2016-prog100-alien_dna1"
 url: "/3dsctf-2016-prog100-alien_dna1/"
 ---

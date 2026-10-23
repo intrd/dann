@@ -2,7 +2,7 @@
 title: "3DSCTF 2016 : stego300-simone_entao_e_natal"
 date: "2017-01-08T17:18:00.000Z"
 lastmod: "2017-06-05T15:29:56.000Z"
-tags: ["steganography", "file carving", "3dsctf-2k16", "ctf"]
+tags: ["ctf", "forensics", "3dsctf-2k16"]
 slug: "3dsctf-2k16-stego300-simone-entao-e-natal"
 url: "/3dsctf-2k16-stego300-simone-entao-e-natal/"
 ---

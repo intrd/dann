@@ -2,7 +2,7 @@
 title: "3DSCTF 2016 : pwn200-not_the_same"
 date: "2017-01-20T19:57:26.000Z"
 lastmod: "2017-06-05T15:28:58.000Z"
-tags: ["3dsctf-2k16", "reverse engineering", "pwn", "python", "buffer overflow", "rop", "ctf"]
+tags: ["ctf", "pwn", "reverse engineering", "3dsctf-2k16"]
 slug: "3dsctf2016-pwn200-not_the_same"
 url: "/3dsctf2016-pwn200-not_the_same/"
 ---

@@ -23,6 +23,24 @@ a{color:var(--link)}
 .sr-meta{display:block;color:#777;font-size:.8em}
 .sr-snip{display:block;color:#aaa;font:.8em/1.4 system-ui,sans-serif;margin-top:2px}
 .search-empty{padding:8px 10px;color:#888}
+.tagmenu{position:static}
+.tagmenu summary{list-style:none;cursor:pointer;padding:4px 10px;border-radius:4px;color:#cfcfcf;transition:color .15s,background .15s}
+.tagmenu summary::-webkit-details-marker{display:none}
+.tagmenu summary::after{content:" ▾";font-size:.8em;color:#777}
+.tagmenu[open] summary::after{content:" ▴"}
+.tagmenu summary:hover,.tagmenu summary:focus-visible,.tagmenu[open] summary{color:#7CFC9A;background:#1a1a1a;outline:none}
+.tagmenu-panel{position:absolute;top:calc(100% + 6px);left:-1px;right:-1px;z-index:20;max-height:70vh;overflow:auto;padding:12px 14px;background:#0d0d0d;border:1px solid #333;border-radius:6px;box-shadow:0 8px 24px rgba(0,0,0,.5)}
+.tagbrowser section+section{margin-top:12px}
+.tb-head{margin:0 0 6px;font:600 .75rem ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.08em;text-transform:uppercase;color:#777}
+.tb-list{display:flex;flex-wrap:wrap;gap:6px;list-style:none;margin:0;padding:0}
+.chip{display:inline-flex;align-items:baseline;gap:8px;padding:3px 10px;border:1px solid #2c2c2c;border-radius:999px;background:#141414;color:#d6d6d6;text-decoration:none;font:.85rem ui-monospace,SFMono-Regular,Menlo,monospace;transition:border-color .15s,color .15s}
+.chip:hover,.chip:focus-visible{border-color:#7CFC9A;color:#7CFC9A;outline:none}
+.chip-event{border-style:dashed}
+.chip-n{color:#777;font-size:.75em;padding-left:2px}
+.tb-all{display:inline-block;margin-top:12px;color:#7CFC9A;font:.85rem ui-monospace,SFMono-Regular,Menlo,monospace;text-decoration:none}
+.tb-all:hover{text-decoration:underline}
+main .tagbrowser{padding:12px 14px;background:#0d0d0d;border:1px solid #262626;border-radius:6px}
+.term-n{font-size:.5em;color:var(--mut);font-weight:400;vertical-align:middle}
 .visually-hidden{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 @media (max-width:600px){.topnav{padding:8px}.topnav-links{gap:0}.topnav-links a{padding:4px 6px;font-size:.85rem}.search{max-width:none;margin-left:0;flex-basis:100%}}
 main{max-width:50rem;margin:0 auto;padding:16px}

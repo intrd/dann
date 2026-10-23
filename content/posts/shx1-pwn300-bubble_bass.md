@@ -2,7 +2,7 @@
 title: "SHX1 : pwn300-bubble_bass"
 date: "2017-01-16T01:04:52.000Z"
 lastmod: "2017-06-05T15:29:06.000Z"
-tags: ["cryptography", "programming", "shx1", "shellterlabs", "python", "pickles", "ctf"]
+tags: ["ctf", "cryptography", "programming", "shx1"]
 slug: "shx1-pwn300-bubble_bass"
 url: "/shx1-pwn300-bubble_bass/"
 ---

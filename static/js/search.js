@@ -1,4 +1,15 @@
 (function () {
+  var menu = document.querySelector(".tagmenu");
+  if (!menu) return;
+  document.addEventListener("click", function (ev) {
+    if (menu.open && !menu.contains(ev.target)) menu.open = false;
+  });
+  document.addEventListener("keydown", function (ev) {
+    if (ev.key === "Escape" && menu.open) { menu.open = false; menu.querySelector("summary").focus(); }
+  });
+})();
+
+(function () {
   var form = document.querySelector(".search");
   if (!form) return;
   var input = form.querySelector(".search-input");

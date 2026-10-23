@@ -2,7 +2,7 @@
 title: "SHX9 : for200-basic_auth"
 date: "2017-05-08T04:37:21.000Z"
 lastmod: "2017-06-05T15:25:25.000Z"
-tags: ["forensics", "shx9", "wpa-psk", "bruteforce", "802.11", "wifi cracking", "ctf"]
+tags: ["ctf", "forensics", "networking", "shx9"]
 slug: "shx9-for200-basic_auth"
 url: "/shx9-for200-basic_auth/"
 ---

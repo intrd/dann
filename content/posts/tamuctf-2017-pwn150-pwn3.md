@@ -2,7 +2,7 @@
 title: "TAMUctf 2017 : pwn150-pwn3"
 date: "2017-04-24T17:06:16.000Z"
 lastmod: "2017-06-05T15:26:01.000Z"
-tags: ["tamuctf2k17", "reverse engineering", "pwn", "rop", "format string", "ctf"]
+tags: ["ctf", "pwn", "reverse engineering", "tamuctf2k17"]
 slug: "tamuctf-2017-pwn150-pwn3"
 url: "/tamuctf-2017-pwn150-pwn3/"
 ---

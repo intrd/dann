@@ -2,7 +2,7 @@
 title: "ClimbU : Dynamic live scoring [PRIV8]"
 date: "2016-01-28T12:13:47.000Z"
 lastmod: "2022-09-08T13:45:37.000Z"
-tags: ["en_US", "climbing", "bouldering", "scoring", "project", "application", "climbu"]
+tags: ["projects"]
 slug: "climbu-dynamic-and-open-source-live-scoring-for-competitions"
 url: "/climbu-dynamic-and-open-source-live-scoring-for-competitions/"
 ---

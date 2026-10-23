@@ -5,6 +5,15 @@
     {{- $href := cond (hasPrefix .url "http") .url (cond (eq .url "/") site.Home.RelPermalink (.url | relURL)) }}
     <li><a href="{{ $href }}"{{ if eq $href $cur }} aria-current="page"{{ end }}>{{ .name }}</a></li>
     {{- end }}
+    <li>
+      <details class="tagmenu">
+        <summary>/tags</summary>
+        <div class="tagmenu-panel">
+          {{ partial "tagbrowser.html" . }}
+          <a class="tb-all" href="{{ "tag/" | relURL }}">all tags →</a>
+        </div>
+      </details>
+    </li>
   </ul>
   {{- $u := urls.Parse site.BaseURL }}
   <form class="search" role="search" action="https://duckduckgo.com/" method="get" data-index="{{ "index.json" | relURL }}">

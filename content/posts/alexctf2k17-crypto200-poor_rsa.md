@@ -2,7 +2,7 @@
 title: "AlexCTF 2017 : crypto200-poor_rsa"
 date: "2017-02-09T14:40:16.000Z"
 lastmod: "2017-06-05T15:27:52.000Z"
-tags: ["alexctf2k17", "cryptography", "rsa", "poor encryption", "small primes", "ctf"]
+tags: ["ctf", "cryptography", "alexctf2k17"]
 slug: "alexctf2k17-crypto200-poor_rsa"
 url: "/alexctf2k17-crypto200-poor_rsa/"
 ---

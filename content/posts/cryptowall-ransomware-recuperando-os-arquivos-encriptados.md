@@ -2,7 +2,7 @@
 title: "CryptoWall : Ransomware, métodos de recuperação dos arquivos sequestrados"
 date: "2015-10-22T03:24:30.000Z"
 lastmod: "2017-04-25T13:50:25.000Z"
-tags: ["pt_BR", "RansomWare", "CryptoLocker", "CryptoWall", "Arquivos sequestrados", "Sequestro de dados", "Resgate de dados"]
+tags: ["malware", "pt_BR"]
 slug: "cryptowall-ransomware-recuperando-os-arquivos-encriptados"
 url: "/cryptowall-ransomware-recuperando-os-arquivos-encriptados/"
 ---

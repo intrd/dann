@@ -2,7 +2,7 @@
 title: "33C3CTF : web200-pay2win"
 date: "2017-01-11T15:22:16.000Z"
 lastmod: "2017-06-05T15:29:32.000Z"
-tags: ["33c3ctf", "pwn", "web security", "ctf"]
+tags: ["ctf", "web security", "33c3ctf"]
 slug: "33c3ctf-web200-pay2win"
 url: "/33c3ctf-web200-pay2win/"
 ---
