@@ -25,6 +25,22 @@ enableRobotsTXT = true
   banner = "content/images/2021/08/1500x500.jpeg"
   footer = "content/images/cpaf.jpg"
 
+  [[params.nav]]
+    name = "/home"
+    url = "/"
+  [[params.nav]]
+    name = "/teams"
+    url = "ctf/"
+  [[params.nav]]
+    name = "/about"
+    url = "about/"
+  [[params.nav]]
+    name = "/keybase"
+    url = "https://keybase.io/intrd"
+  [[params.nav]]
+    name = "/github"
+    url = "https://github.com/intrd"
+
 [mediaTypes."text/x-rss"]
   suffixes = ["html"]
 
@@ -36,4 +52,4 @@ enableRobotsTXT = true
   notAlternative = true
 
 [outputs]
-  home = ["HTML", "RSS", "RSSCOMPAT"]
+  home = ["HTML", "RSS", "RSSCOMPAT", "JSON"]

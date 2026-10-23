@@ -1,0 +1,17 @@
+{{- $cur := .RelPermalink -}}
+<nav class="topnav" aria-label="Main">
+  <ul class="topnav-links">
+    {{- range site.Params.nav }}
+    {{- $href := cond (hasPrefix .url "http") .url (cond (eq .url "/") site.Home.RelPermalink (.url | relURL)) }}
+    <li><a href="{{ $href }}"{{ if eq $href $cur }} aria-current="page"{{ end }}>{{ .name }}</a></li>
+    {{- end }}
+  </ul>
+  {{- $u := urls.Parse site.BaseURL }}
+  <form class="search" role="search" action="https://duckduckgo.com/" method="get" data-index="{{ "index.json" | relURL }}">
+    <label class="visually-hidden" for="search-input">Search posts</label>
+    <span class="search-prompt" aria-hidden="true">grep -i</span>
+    <input id="search-input" class="search-input" type="search" name="q" placeholder="search…" autocomplete="off" spellcheck="false" aria-controls="search-results" aria-expanded="false">
+    <input type="hidden" name="sites" value="{{ $u.Host }}{{ strings.TrimSuffix "/" $u.Path }}">
+    <ul id="search-results" class="search-results" role="listbox" hidden></ul>
+  </form>
+</nav>
