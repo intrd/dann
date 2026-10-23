@@ -3,6 +3,7 @@ title: "SHX2 : net100-get_out"
 date: "2017-01-30T15:30:38.000Z"
 lastmod: "2017-06-05T15:28:21.000Z"
 tags: ["ctf", "networking", "shx2"]
+images: ["/content/images/2017/01/Selection_447-1.jpg"]
 slug: "shx2-net100-get_out"
 url: "/shx2-net100-get_out/"
 ---

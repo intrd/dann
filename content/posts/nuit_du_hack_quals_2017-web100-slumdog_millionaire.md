@@ -3,6 +3,7 @@ title: "Nuit du Hack quals 2017 : web100-slumdog_millionaire"
 date: "2017-04-02T11:23:51.000Z"
 lastmod: "2017-06-05T15:26:41.000Z"
 tags: ["ctf", "web security", "programming", "ndhquals2k17"]
+images: ["/content/images/2017/04/Selection_341.png"]
 slug: "nuit_du_hack_quals_2017-web100-slumdog_millionaire"
 url: "/nuit_du_hack_quals_2017-web100-slumdog_millionaire/"
 ---

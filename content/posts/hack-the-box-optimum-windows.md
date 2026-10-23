@@ -3,6 +3,7 @@ title: "Hack The Box : Optimum (windows)"
 date: "2017-11-16T00:35:38.000Z"
 lastmod: "2017-11-16T18:53:42.000Z"
 tags: ["pentest"]
+images: ["/content/images/2017/11/Selection_999-2452-.png"]
 slug: "hack-the-box-optimum-windows"
 url: "/hack-the-box-optimum-windows/"
 ---

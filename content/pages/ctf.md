@@ -1,5 +1,6 @@
 ---
 title: "Capture the flag"
+images: ["/content/images/2017/01/Selection_123-1.jpg"]
 slug: "ctf"
 url: "/ctf/"
 ---

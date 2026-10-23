@@ -3,6 +3,7 @@ title: "AlexCTF 2017 : crypto150-what_is_this_encryption"
 date: "2017-02-07T18:09:37.000Z"
 lastmod: "2017-06-05T15:28:03.000Z"
 tags: ["ctf", "cryptography", "alexctf2k17"]
+images: ["/content/images/2017/02/logo_11-1.png"]
 slug: "alexctf2k17-crypto150-what_is_this_encryption"
 url: "/alexctf2k17-crypto150-what_is_this_encryption/"
 ---

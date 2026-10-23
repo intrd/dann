@@ -3,6 +3,7 @@ title: "3DSCTF 2016 : prog200-different_and_notorious_alignment"
 date: "2017-01-13T14:06:13.000Z"
 lastmod: "2017-06-05T15:29:15.000Z"
 tags: ["ctf", "programming", "3dsctf-2k16"]
+images: ["/content/images/2017/01/3ds_109-8.jpg"]
 slug: "3dsctf-2016-prog200-alien_dna2"
 url: "/3dsctf-2016-prog200-alien_dna2/"
 ---

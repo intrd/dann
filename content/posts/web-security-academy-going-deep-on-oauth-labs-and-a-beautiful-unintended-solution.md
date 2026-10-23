@@ -3,6 +3,7 @@ title: "Web Security Academy : Going deep on OAuth labs and a beautiful unintend
 date: "2020-12-20T07:50:45.000Z"
 lastmod: "2020-12-20T15:54:49.000Z"
 tags: ["web security"]
+images: ["/content/images/2020/12/writeup25.png"]
 slug: "web-security-academy-going-deep-on-oauth-labs-and-a-beautiful-unintended-solution"
 url: "/web-security-academy-going-deep-on-oauth-labs-and-a-beautiful-unintended-solution/"
 ---

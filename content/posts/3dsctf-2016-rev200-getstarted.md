@@ -3,6 +3,7 @@ title: "3DSCTF 2016 : pwn200-getstarted"
 date: "2017-01-08T17:20:00.000Z"
 lastmod: "2017-06-05T15:29:41.000Z"
 tags: ["ctf", "pwn", "reverse engineering", "3dsctf-2k16"]
+images: ["/content/images/2017/01/3ds_109-1.jpg"]
 slug: "3dsctf-2016-rev200-getstarted"
 url: "/3dsctf-2016-rev200-getstarted/"
 ---

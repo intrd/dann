@@ -3,6 +3,7 @@ title: "Mech keyboard : Quick Fire TK - Custom Numpad (AutoHotKey script)"
 date: "2015-07-31T04:44:54.000Z"
 lastmod: "2017-05-19T12:47:31.000Z"
 tags: ["hardware", "projects"]
+images: ["/content/images/2015/07/photo_2015-07-30_14-53-10.jpg"]
 slug: "keyboard-cm-quick-fire-tk-autohotkey-script-to-mimic-numpad-navigation-keys-home-del-pgup-without-disabling-numlock"
 url: "/keyboard-cm-quick-fire-tk-autohotkey-script-to-mimic-numpad-navigation-keys-home-del-pgup-without-disabling-numlock/"
 ---

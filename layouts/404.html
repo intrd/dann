@@ -1,0 +1,6 @@
+{{ define "main" }}
+<h1>404</h1>
+<pre><code>$ cat ./this-page
+cat: ./this-page: No such file or directory</code></pre>
+<p>That page doesn't exist (anymore). Try the search above, browse <a href="{{ "tag/" | relURL }}">all tags</a>, or go back <a href="{{ site.Home.RelPermalink }}">home</a>.</p>
+{{ end }}

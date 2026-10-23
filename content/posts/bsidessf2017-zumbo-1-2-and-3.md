@@ -3,6 +3,7 @@ title: "BSides SF 2017 : Zumbo 1 2 and 3"
 date: "2017-02-12T12:35:00.000Z"
 lastmod: "2017-06-05T15:27:34.000Z"
 tags: ["ctf", "web security", "bsidessf2017"]
+images: ["/content/images/2017/02/Selection_769.png"]
 slug: "bsidessf2017-zumbo-1-2-and-3"
 url: "/bsidessf2017-zumbo-1-2-and-3/"
 ---

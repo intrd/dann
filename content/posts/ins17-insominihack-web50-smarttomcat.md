@@ -3,6 +3,7 @@ title: "Insomini'hack 2017 : web50-smarttomcat"
 date: "2017-01-30T14:06:19.000Z"
 lastmod: "2017-06-05T15:28:40.000Z"
 tags: ["ctf", "web security", "ins17"]
+images: ["/content/images/2017/01/Selection_439-1.jpg"]
 slug: "ins17-insominihack-web50-smarttomcat"
 url: "/ins17-insominihack-web50-smarttomcat/"
 ---

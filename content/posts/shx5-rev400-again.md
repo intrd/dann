@@ -3,6 +3,7 @@ title: "SHX5 : rev400-again"
 date: "2017-03-16T15:37:41.000Z"
 lastmod: "2017-06-05T15:27:05.000Z"
 tags: ["ctf", "reverse engineering", "shx5"]
+images: ["/content/images/2017/03/Selection_018.png"]
 slug: "shx5-rev400-again"
 url: "/shx5-rev400-again/"
 ---

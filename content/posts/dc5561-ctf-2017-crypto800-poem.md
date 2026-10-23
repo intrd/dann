@@ -3,6 +3,7 @@ title: "DC5561 CTF 2017 : crypto800-poem"
 date: "2017-11-09T21:47:04.000Z"
 lastmod: "2017-11-09T21:47:04.000Z"
 tags: ["ctf", "cryptography", "reverse engineering", "dc5561"]
+images: ["/content/images/2017/11/AXUeWhO0.jpeg"]
 slug: "dc5561-ctf-2017-crypto800-poem"
 url: "/dc5561-ctf-2017-crypto800-poem/"
 ---

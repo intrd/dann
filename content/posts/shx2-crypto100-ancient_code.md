@@ -3,6 +3,7 @@ title: "SHX2 : crypto100-ancient_code"
 date: "2017-01-30T14:56:58.000Z"
 lastmod: "2017-06-05T15:28:30.000Z"
 tags: ["ctf", "cryptography", "shx2"]
+images: ["/content/images/2017/01/Selection_447.jpg"]
 slug: "shx2-crypto100-ancient_code"
 url: "/shx2-crypto100-ancient_code/"
 ---

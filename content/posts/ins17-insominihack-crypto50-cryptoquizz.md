@@ -3,6 +3,7 @@ title: "Insomini'hack 2017 : crypto50-cryptoquizz"
 date: "2017-01-30T12:43:05.000Z"
 lastmod: "2017-06-05T15:28:49.000Z"
 tags: ["ctf", "cryptography", "programming", "ins17"]
+images: ["/content/images/2017/01/Selection_439.jpg"]
 slug: "ins17-insominihack-crypto50-cryptoquizz"
 url: "/ins17-insominihack-crypto50-cryptoquizz/"
 ---

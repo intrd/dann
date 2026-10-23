@@ -3,6 +3,7 @@ title: "SHX7 : for300-go_deeper"
 date: "2017-05-08T03:10:11.000Z"
 lastmod: "2017-06-05T15:25:33.000Z"
 tags: ["ctf", "forensics", "shx7"]
+images: ["/content/images/2017/05/Selection_846.png"]
 slug: "shx7-for300-go_deeper"
 url: "/shx7-for300-go_deeper/"
 ---

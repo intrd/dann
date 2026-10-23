@@ -3,6 +3,7 @@ title: "SHX5 : rev200-lil_arm"
 date: "2017-03-16T18:54:27.000Z"
 lastmod: "2017-06-05T15:26:55.000Z"
 tags: ["ctf", "reverse engineering", "shx5"]
+images: ["/content/images/2017/03/Selection_018-1.png"]
 slug: "shx5-rev200-lil_arm"
 url: "/shx5-rev200-lil_arm/"
 ---

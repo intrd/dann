@@ -3,6 +3,7 @@ title: "AlexCTF 2017 : rev100-c++_is_awesome"
 date: "2017-02-11T03:23:00.000Z"
 lastmod: "2017-06-05T15:27:43.000Z"
 tags: ["ctf", "reverse engineering", "alexctf2k17"]
+images: ["/content/images/2017/02/logo_11-3.png"]
 slug: "alexctf2k17-rev100-c-_is_awesome"
 url: "/alexctf2k17-rev100-c-_is_awesome/"
 ---

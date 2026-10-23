@@ -3,6 +3,7 @@ title: "TAMUctf 2017 : pwn100-pwn2"
 date: "2017-04-24T13:55:16.000Z"
 lastmod: "2017-06-05T15:26:22.000Z"
 tags: ["ctf", "pwn", "reverse engineering", "tamuctf2k17"]
+images: ["/content/images/2017/04/Selection_649-1.png"]
 slug: "tamuctf-2017-pwn100-pwn2"
 url: "/tamuctf-2017-pwn100-pwn2/"
 ---

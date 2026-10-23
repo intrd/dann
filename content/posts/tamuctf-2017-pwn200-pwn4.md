@@ -3,6 +3,7 @@ title: "TAMUctf 2017 : pwn200-pwn4"
 date: "2017-04-24T14:38:32.000Z"
 lastmod: "2017-06-05T15:26:11.000Z"
 tags: ["ctf", "pwn", "reverse engineering", "tamuctf2k17"]
+images: ["/content/images/2017/04/Selection_649-2.png"]
 slug: "tamuctf-2017-pwn200-pwn4"
 url: "/tamuctf-2017-pwn200-pwn4/"
 ---

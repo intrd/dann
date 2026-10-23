@@ -3,6 +3,7 @@ title: "Powerful USB stick : Grub2 booting Mint, Tails and Hirens + (storages NT
 date: "2015-09-17T13:18:00.000Z"
 lastmod: "2016-03-23T08:24:00.000Z"
 tags: ["linux"]
+images: ["/content/images/2015/09/photo_2015-09-17_13-18-1r3-1.jpg"]
 slug: "grub2-multiboot-usb-linux-mint-tails-and-hirens-boot-cd-luks-encrypted-partition"
 url: "/grub2-multiboot-usb-linux-mint-tails-and-hirens-boot-cd-luks-encrypted-partition/"
 ---

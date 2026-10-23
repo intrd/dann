@@ -3,6 +3,7 @@ title: "BIOHACKING : How I got two NFC implants @ DEF CON 27, why I bricked and 
 date: "2019-08-16T00:42:55.000Z"
 lastmod: "2019-08-18T23:04:50.000Z"
 tags: ["hardware", "defcon"]
+images: ["/content/images/2019/08/2019-08-15_21-40.png"]
 slug: "biohacking-how-i-got-two-nfc-implants-def-con-27-and-how-i-bricked-and-fixed-it"
 url: "/biohacking-how-i-got-two-nfc-implants-def-con-27-and-how-i-bricked-and-fixed-it/"
 ---

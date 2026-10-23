@@ -3,6 +3,7 @@ title: "GCL-Prequals 2017 : Cracking Agent Smith bitcoin wallet from public key"
 date: "2017-08-13T03:46:00.000Z"
 lastmod: "2017-08-20T01:48:07.000Z"
 tags: ["ctf", "cryptography", "bitcoin", "gclprequals2k17"]
+images: ["/content/images/2017/08/Selection_999-1324-.png"]
 slug: "gcl-prequals-2017-cracking-agent-smith-bitcoin-wallet"
 url: "/gcl-prequals-2017-cracking-agent-smith-bitcoin-wallet/"
 ---

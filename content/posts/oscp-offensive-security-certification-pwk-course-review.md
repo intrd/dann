@@ -3,6 +3,7 @@ title: "OSCP : Offensive Security Certification & PWK review"
 date: "2018-02-25T16:59:00.000Z"
 lastmod: "2018-03-08T17:26:10.000Z"
 tags: ["pentest"]
+images: ["/content/images/2018/02/oscp.png"]
 slug: "oscp-offensive-security-certification-pwk-course-review"
 url: "/oscp-offensive-security-certification-pwk-course-review/"
 ---

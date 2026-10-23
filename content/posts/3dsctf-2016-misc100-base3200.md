@@ -3,6 +3,7 @@ title: "3DSCTF 2016 : misc100-base3200"
 date: "2017-01-08T17:17:37.000Z"
 lastmod: "2017-06-05T15:30:05.000Z"
 tags: ["ctf", "cryptography", "3dsctf-2k16"]
+images: ["/content/images/2017/01/3ds_109-4.jpg"]
 slug: "3dsctf-2016-misc100-base3200"
 url: "/3dsctf-2016-misc100-base3200/"
 ---

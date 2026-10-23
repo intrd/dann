@@ -3,6 +3,7 @@ title: "Bitcoin : Experiências e técnicas de mineração de criptomoedas"
 date: "2014-06-17T06:37:04.000Z"
 lastmod: "2022-03-31T11:03:54.000Z"
 tags: ["bitcoin", "pt_BR"]
+images: ["/content/images/2015/08/Clipboard02.jpg"]
 slug: "bitcoin-guia-definitivo-parte-23-tecnicas-de-mineracao-de-criptomoedas"
 url: "/bitcoin-guia-definitivo-parte-23-tecnicas-de-mineracao-de-criptomoedas/"
 ---

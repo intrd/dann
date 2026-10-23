@@ -3,6 +3,7 @@ title: "SHX11 : stego200-brazil_icon"
 date: "2017-06-05T13:07:08.000Z"
 lastmod: "2017-08-13T01:57:16.000Z"
 tags: ["ctf", "forensics", "shx11"]
+images: ["/content/images/2017/06/Selection_999-365-.png"]
 slug: "shx11-stego200-brazil_icon"
 url: "/shx11-stego200-brazil_icon/"
 ---

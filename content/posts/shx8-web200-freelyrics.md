@@ -3,6 +3,7 @@ title: "SHX8 : web200-freelyrics"
 date: "2017-04-28T16:34:55.000Z"
 lastmod: "2017-06-05T15:25:43.000Z"
 tags: ["ctf", "web security", "shx8"]
+images: ["/content/images/2017/04/Selection_704-1.png"]
 slug: "shx8-web200-freelyrics"
 url: "/shx8-web200-freelyrics/"
 ---

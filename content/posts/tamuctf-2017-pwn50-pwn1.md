@@ -3,6 +3,7 @@ title: "TAMUctf 2017 : pwn50-pwn1"
 date: "2017-04-24T13:09:09.000Z"
 lastmod: "2017-06-05T15:26:31.000Z"
 tags: ["ctf", "pwn", "reverse engineering", "tamuctf2k17"]
+images: ["/content/images/2017/04/Selection_649.png"]
 slug: "tamuctf-2017-pwn50-pwn1"
 url: "/tamuctf-2017-pwn50-pwn1/"
 ---
