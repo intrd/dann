@@ -23,6 +23,7 @@ enableRobotsTXT = true
   github = "https://github.com/intrd"
   keybase = "https://keybase.io/intrd"
   banner = "content/images/2021/08/1500x500.jpeg"
+  footer = "content/images/cpaf.jpg"
 
 [mediaTypes."text/x-rss"]
   suffixes = ["html"]

@@ -22,5 +22,9 @@
     <a class="banner-title" href="{{ site.Home.RelPermalink }}">{{ site.Title }}</a>
   </div>
   <main>{{ block "main" . }}{{ end }}</main>
+  <footer class="site">
+    <img class="footer-img" src="{{ site.Params.footer | relURL }}" alt="CPAF: Cyberpunk as fuck. Some material may be inappropriate for technophobes." width="1280" height="503" loading="lazy">
+    <p class="poweredby">..and a big thx 4 <a href="https://gohugo.io">Hugo</a> team.</p>
+  </footer>
 </body>
 </html>
