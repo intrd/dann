@@ -1,5 +1,5 @@
 :root{--bg:#fff;--fg:#222;--mut:#666;--link:#0b5fff;--code:#f4f4f4}
-@media (prefers-color-scheme:dark){:root{--bg:#111;--fg:#ddd;--mut:#999;--link:#6ea1ff;--code:#1c1c1c}}
+@media (prefers-color-scheme:dark){:root{--bg:#000;--fg:#ddd;--mut:#999;--link:#6ea1ff;--code:#161616}}
 body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.6 system-ui,sans-serif}
 a{color:var(--link)}
 header.site{background:#333;padding:8px 16px;display:flex;flex-wrap:wrap;gap:16px;align-items:center}
