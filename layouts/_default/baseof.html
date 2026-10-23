@@ -10,7 +10,6 @@
 </head>
 <body>
   <header class="site">
-    <a class="logo" href="{{ site.Home.RelPermalink }}">{{ site.Title }}</a>
     <nav>
       <a href="{{ site.Home.RelPermalink }}">/home</a>
       <a href="{{ "ctf/" | relURL }}">/teams</a>
@@ -19,6 +18,9 @@
       <a href="{{ site.Params.github }}">/github</a>
     </nav>
   </header>
+  <div class="banner{{ if .IsHome }} home{{ end }}" style="background-image:url('{{ site.Params.banner | relURL }}')">
+    <a class="banner-title" href="{{ site.Home.RelPermalink }}">{{ site.Title }}</a>
+  </div>
   <main>{{ block "main" . }}{{ end }}</main>
 </body>
 </html>

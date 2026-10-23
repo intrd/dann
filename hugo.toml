@@ -22,6 +22,7 @@ enableRobotsTXT = true
 [params]
   github = "https://github.com/intrd"
   keybase = "https://keybase.io/intrd"
+  banner = "content/images/2021/08/1500x500.jpeg"
 
 [mediaTypes."text/x-rss"]
   suffixes = ["html"]
