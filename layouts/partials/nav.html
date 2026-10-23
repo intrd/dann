@@ -1,10 +1,6 @@
 {{- $cur := .RelPermalink -}}
 <nav class="topnav" aria-label="Main">
   <ul class="topnav-links">
-    {{- range site.Params.nav }}
-    {{- $href := cond (hasPrefix .url "http") .url (cond (eq .url "/") site.Home.RelPermalink (.url | relURL)) }}
-    <li><a href="{{ $href }}"{{ if eq $href $cur }} aria-current="page"{{ end }}>{{ .name }}</a></li>
-    {{- end }}
     <li>
       <details class="tagmenu">
         <summary>/tags</summary>
@@ -14,6 +10,10 @@
         </div>
       </details>
     </li>
+    {{- range site.Params.nav }}
+    {{- $href := cond (hasPrefix .url "http") .url (cond (eq .url "/") site.Home.RelPermalink (.url | relURL)) }}
+    <li><a href="{{ $href }}"{{ if eq $href $cur }} aria-current="page"{{ end }}>{{ .name }}</a></li>
+    {{- end }}
   </ul>
   {{- $u := urls.Parse site.BaseURL }}
   <form class="search" role="search" action="https://duckduckgo.com/" method="get" data-index="{{ "index.json" | relURL }}">

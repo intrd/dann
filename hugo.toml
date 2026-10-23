@@ -35,17 +35,14 @@ removePathAccents = true
   tagTopics = ["ctf", "web security", "cryptography", "pwn", "reverse engineering", "forensics", "programming", "networking", "pentest", "bitcoin", "projects", "hardware", "linux", "malware", "pt_BR"]
 
   [[params.nav]]
-    name = "/teams"
-    url = "ctf/"
-  [[params.nav]]
     name = "/about"
     url = "about/"
   [[params.nav]]
+    name = "/teams"
+    url = "ctf/"
+  [[params.nav]]
     name = "/keybase"
     url = "https://keybase.io/intrd"
-  [[params.nav]]
-    name = "/github"
-    url = "https://github.com/intrd"
 
 [mediaTypes."text/x-rss"]
   suffixes = ["html"]
