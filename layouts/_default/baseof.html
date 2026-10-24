@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
   <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} · {{ site.Title }}{{ end }}</title>
   {{- $desc := .Description | default .Summary | default site.Title | plainify | htmlUnescape | replaceRE `\s+` " " | strings.TrimSpace | truncate 200 }}
   <meta name="description" content="{{ $desc }}">
