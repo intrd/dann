@@ -9,7 +9,7 @@ url: "/about/"
 
 His background is in offensive security: years of penetration testing across corporate environments, followed by a role on a Red Team. He recently stepped away from that position to dedicate himself full-time to bug bounty hunting and independent projects.
 
-This blog collects CTF write-ups, research notes and tools built along the way.
+This blog collects old CTF write-ups, research notes and tools built along the way.
 
 <figure class="quote">
   <blockquote>
