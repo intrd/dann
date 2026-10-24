@@ -1,0 +1,39 @@
+{{- /* Renders a 1200x630 share card for the page: assets/og/base.png plus title and meta line. */ -}}
+{{- $base := resources.Get "og/base.png" -}}
+{{- $bold := resources.Get "fonts/IBMPlexMono-Bold.ttf" -}}
+{{- $regular := resources.Get "fonts/IBMPlexMono-Regular.ttf" -}}
+{{- $title := .Title | default site.Title -}}
+{{- $meta := "" -}}
+{{- if .IsHome -}}
+  {{- $title = "CTF write-ups, security research and side projects" -}}
+  {{- $meta = "by intrd · São Paulo, Brazil" -}}
+{{- else if eq .Kind "term" -}}
+  {{- $title = printf "#%s" .LinkTitle -}}
+  {{- $meta = printf "%d post%s" (len .Pages) (cond (eq (len .Pages) 1) "" "s") -}}
+{{- else if eq .Type "posts" -}}
+  {{- $parts := slice (.Date.Format "Jan 2006") -}}
+  {{- $topics := slice -}}
+  {{- range .GetTerms "tags" -}}
+    {{- if eq .Params.group "event" }}{{ $parts = $parts | append .LinkTitle }}
+    {{- else }}{{ $topics = $topics | append (printf "#%s" (replace .LinkTitle " " "-")) }}{{ end -}}
+  {{- end -}}
+  {{- if gt (len $parts) 1 }}{{ $topics = complement (slice "#ctf") $topics }}{{ end -}}
+  {{- $meta = delimit $parts "  ·  " -}}
+  {{- $shown := slice -}}
+  {{- range first 2 $topics -}}
+    {{- $try := delimit ($shown | append .) " " -}}
+    {{- if le (len (printf "%s  ·  %s" $meta $try)) 52 }}{{ $shown = $shown | append . }}{{ end -}}
+  {{- end -}}
+  {{- with $shown }}{{ $meta = printf "%s  ·  %s" $meta (delimit . " ") }}{{ end -}}
+{{- end -}}
+{{- $size := 56 -}}
+{{- if gt (len $title) 70 }}{{ $size = 46 }}{{ else if gt (len $title) 45 }}{{ $size = 52 }}{{ end -}}
+{{- $filters := slice
+  (images.Text $title (dict "font" $bold "color" "#ffffff" "size" $size "linespacing" 14 "x" 80 "y" 250))
+-}}
+{{- with $meta }}
+{{- $filters = $filters | append (images.Text . (dict "font" $regular "color" "#7CFC9A" "size" 26 "x" 80 "y" 548)) -}}
+{{- end -}}
+{{- $img := $base | images.Filter $filters -}}
+{{- $img = $img.Process "jpg q85" -}}
+{{- return $img -}}
