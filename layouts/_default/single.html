@@ -4,6 +4,9 @@
   <header class="page-head">
     <img class="page-avatar" src="{{ site.Params.avatar | relURL }}" alt="intrd" width="88" height="88">
     <h1>{{ .Title }}</h1>
+    {{- with .Params.gpg }}
+    <p class="contact"><span class="contact-label">contact via GPG</span> <a href="{{ .url }}" rel="noopener"><code>{{ .key }}</code></a></p>
+    {{- end }}
   </header>
   {{- else }}
   <h1>{{ .Title }}</h1>
