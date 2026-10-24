@@ -18,3 +18,5 @@ This blog collects old CTF write-ups, research notes and tools built along the w
   </blockquote>
   <figcaption>— intrd</figcaption>
 </figure>
+
+<p class="contact"><span class="contact-label">contact via GPG</span> <a href="https://keys.openpgp.org/search?q=32E175803ABE5810" rel="noopener"><code>32E1 7580 3ABE 5810</code></a></p>
