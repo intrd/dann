@@ -28,7 +28,7 @@ removePathAccents = true
 
 [params]
   github = "https://github.com/intrd"
-  keybase = "https://keybase.io/intrd"
+  hackerone = "https://hackerone.com/intrd"
   banner = "content/images/2021/08/1500x500.jpeg"
   footer = "content/images/cpaf-footer.png"
   avatar = "content/images/avatar.jpg"
@@ -41,8 +41,11 @@ removePathAccents = true
     name = "/teams"
     url = "ctf/"
   [[params.nav]]
-    name = "/keybase"
-    url = "https://keybase.io/intrd"
+    name = "/github"
+    url = "https://github.com/intrd"
+  [[params.nav]]
+    name = "/h1"
+    url = "https://hackerone.com/intrd"
 
 [mediaTypes."text/x-rss"]
   suffixes = ["html"]
