@@ -1,6 +1,9 @@
 {{- $cur := .RelPermalink -}}
 <nav class="topnav" aria-label="Main">
   <ul class="topnav-links">
+    <li><a class="nav-home" href="{{ site.Home.RelPermalink }}" aria-label="Home" title="home"{{ if eq site.Home.RelPermalink $cur }} aria-current="page"{{ end }}>
+      <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10.5 12 3l9 7.5"/><path d="M5 9.5V20a1 1 0 0 0 1 1h4v-6h4v6h4a1 1 0 0 0 1-1V9.5"/></svg>
+    </a></li>
     <li>
       <details class="tagmenu">
         <summary>/tags</summary>

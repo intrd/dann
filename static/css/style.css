@@ -34,6 +34,8 @@ a{color:var(--link)}
 .sr-meta{display:block;color:#777;font-size:.8em}
 .sr-snip{display:block;color:#aaa;font:.8em/1.4 system-ui,sans-serif;margin-top:2px}
 .search-empty{padding:8px 10px;color:#888}
+.nav-home{display:flex!important;align-items:center;padding:6px 10px!important}
+.nav-home svg{display:block}
 .tagmenu{position:static}
 .tagmenu summary{list-style:none;cursor:pointer;padding:4px 10px;border-radius:4px;color:#cfcfcf;transition:color .15s,background .15s}
 .tagmenu summary::-webkit-details-marker{display:none}
